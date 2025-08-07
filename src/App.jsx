@@ -5,7 +5,7 @@ import React, { useState, useRef, useEffect } from "react";
 const DesignIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-red-500 mb-2"
+    className="h-8 w-8 text-teal-600 mb-2"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -22,7 +22,7 @@ const DesignIcon = () => (
 const WarrantyIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-red-500 mb-2"
+    className="h-8 w-8 text-teal-600 mb-2"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -39,7 +39,7 @@ const WarrantyIcon = () => (
 const PricingIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-red-500 mb-2"
+    className="h-8 w-8 text-teal-600 mb-2"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -82,7 +82,7 @@ const PlayIcon = () => (
 const HomeEstimatorIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-12 w-12 text-red-500 mb-4"
+    className="h-12 w-12 text-teal-600 mb-4"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -99,7 +99,7 @@ const HomeEstimatorIcon = () => (
 const KitchenEstimatorIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-12 w-12 text-red-500 mb-4"
+    className="h-12 w-12 text-teal-600 mb-4"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -122,7 +122,7 @@ const KitchenEstimatorIcon = () => (
 const WardrobeEstimatorIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-12 w-12 text-red-500 mb-4"
+    className="h-12 w-12 text-teal-600 mb-4"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -145,7 +145,7 @@ const WardrobeEstimatorIcon = () => (
 const ServicesIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-6 w-6 text-red-500"
+    className="h-6 w-6 text-teal-600"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -161,7 +161,7 @@ const ServicesIcon = () => (
 const OfferWarrantyIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-6 w-6 text-red-500"
+    className="h-6 w-6 text-teal-600"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -177,7 +177,7 @@ const OfferWarrantyIcon = () => (
 const TechnologyIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-6 w-6 text-red-500"
+    className="h-6 w-6 text-teal-600"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -193,7 +193,7 @@ const TechnologyIcon = () => (
 const PriceBenefitsIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-6 w-6 text-red-500"
+    className="h-6 w-6 text-teal-600"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -209,7 +209,7 @@ const PriceBenefitsIcon = () => (
 const MeetDesignerIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-red-500"
+    className="h-8 w-8 text-teal-600"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -225,7 +225,7 @@ const MeetDesignerIcon = () => (
 const BookRenovationIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-red-500"
+    className="h-8 w-8 text-teal-600"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -241,7 +241,7 @@ const BookRenovationIcon = () => (
 const ExecutionIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-red-500"
+    className="h-8 w-8 text-teal-600"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -257,7 +257,7 @@ const ExecutionIcon = () => (
 const FinalInstallIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-red-500"
+    className="h-8 w-8 text-teal-600"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -273,7 +273,7 @@ const FinalInstallIcon = () => (
 const MoveInIcon = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-red-500"
+    className="h-8 w-8 text-teal-600"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -332,14 +332,14 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0 flex items-center">
             <svg
-              className="h-8 w-auto text-red-500"
+              className="h-8 w-auto text-teal-600"
               viewBox="0 0 40 40"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z"
-                fill="#F44336"
+                fill="currentColor"
               />
               <path
                 d="M20 28C24.4183 28 28 24.4183 28 20C28 15.5817 24.4183 12 20 12C15.5817 12 12 15.5817 12 20C12 24.4183 15.5817 28 20 28Z"
@@ -353,7 +353,7 @@ const Header = () => {
           <div className="hidden md:flex items-center space-x-8">
             <a
               href={`tel:${phoneNumber}`}
-              className="bg-red-500 text-white font-semibold py-2 px-6 rounded-md hover:bg-red-600 transition duration-300"
+              className="bg-teal-600 text-white font-semibold py-2 px-6 rounded-md hover:bg-teal-700 transition duration-300"
             >
               Contact Us
             </a>
@@ -361,7 +361,7 @@ const Header = () => {
           <div className="md:hidden flex items-center">
             <a
               href={`tel:${phoneNumber}`}
-              className="bg-red-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-red-600 transition duration-300 text-sm"
+              className="bg-teal-600 text-white font-semibold py-2 px-4 rounded-md hover:bg-teal-700 transition duration-300 text-sm"
             >
               Contact Us
             </a>
@@ -389,7 +389,7 @@ const Hero = () => {
       <div className="relative container mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 lg:py-40 text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
           Transform Your Home with Stunning Interiors{" "}
-          <span className="text-yellow-400">Customized for You</span>
+          <span className="text-amber-400">Customized for You</span>
         </h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg md:text-xl text-gray-200">
           Smart design, elegant finishes, and tech-powered execution — all
@@ -400,7 +400,7 @@ const Hero = () => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-red-500 text-white font-bold py-4 px-10 rounded-md text-lg hover:bg-red-600 transition duration-300 transform hover:scale-105"
+            className="inline-block bg-teal-600 text-white font-bold py-4 px-10 rounded-md text-lg hover:bg-teal-700 transition duration-300 transform hover:scale-105"
           >
             CONTACT US
           </a>
@@ -455,7 +455,7 @@ const HomeDesignCraze = () => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-red-500 text-white font-bold py-4 px-10 rounded-md text-lg hover:bg-red-600 transition duration-300 transform hover:scale-105"
+            className="inline-block bg-teal-600 text-white font-bold py-4 px-10 rounded-md text-lg hover:bg-teal-700 transition duration-300 transform hover:scale-105"
           >
             BOOK YOUR FREE DESIGN CALL
           </a>
@@ -473,16 +473,16 @@ const StatsSection = () => {
     { value: "100%", label: "Customized Design Experience" },
   ];
   return (
-    <section className="bg-green-100 py-12">
+    <section className="bg-teal-50 py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-3xl font-bold text-center text-green-800 mb-8">
+        <h2 className="text-3xl font-bold text-center text-teal-800 mb-8">
           Let our numbers do the talking!
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {stats.map((stat, index) => (
             <div key={index}>
-              <p className="text-4xl font-bold text-green-900">{stat.value}</p>
-              <p className="text-md text-green-700">{stat.label}</p>
+              <p className="text-4xl font-bold text-teal-900">{stat.value}</p>
+              <p className="text-md text-teal-700">{stat.label}</p>
             </div>
           ))}
         </div>
@@ -564,7 +564,7 @@ const HomesForEveryStyle = () => {
         <div className="text-center mt-12">
           <a
             href={`tel:${phoneNumber}`}
-            className="inline-block bg-red-500 text-white font-bold py-4 px-10 rounded-md text-lg hover:bg-red-600 transition duration-300 transform hover:scale-105"
+            className="inline-block bg-teal-600 text-white font-bold py-4 px-10 rounded-md text-lg hover:bg-teal-700 transition duration-300 transform hover:scale-105"
           >
             Contact Us
           </a>
@@ -651,7 +651,7 @@ const PriceEstimator = () => {
               <p className="text-gray-600 mb-6">{item.description}</p>
               <a
                 href={`tel:${phoneNumber}`}
-                className="mt-auto bg-red-500 text-white font-semibold py-3 px-8 rounded-md hover:bg-red-600 transition duration-300 flex items-center"
+                className="mt-auto bg-teal-600 text-white font-semibold py-3 px-8 rounded-md hover:bg-teal-700 transition duration-300 flex items-center"
               >
                 Contact Us
                 <svg
@@ -925,8 +925,8 @@ const TestedBest = () => {
               onClick={() => setActiveTab(index)}
               className={`py-2 px-4 text-sm sm:text-base font-medium transition-colors duration-300 ${
                 activeTab === index
-                  ? "border-b-2 border-red-500 text-red-500"
-                  : "text-gray-500 hover:text-red-500"
+                  ? "border-b-2 border-teal-600 text-teal-600"
+                  : "text-gray-500 hover:text-teal-600"
               }`}
             >
               {tab.name}
@@ -1153,8 +1153,8 @@ const TransformingHomes = () => {
               onClick={() => setActiveTab(index)}
               className={`py-2 px-4 text-sm sm:text-base font-medium transition-colors duration-300 ${
                 activeTab === index
-                  ? "border-b-2 border-red-500 text-red-500"
-                  : "text-gray-500 hover:text-red-500"
+                  ? "border-b-2 border-teal-600 text-teal-600"
+                  : "text-gray-500 hover:text-teal-600"
               }`}
             >
               {tab.name}
@@ -1271,12 +1271,12 @@ const TestimonialCarousel = () => {
 const DreamHomeCTA = () => {
   const whatsappLink = "https://wa.me/917065438903";
   return (
-    <section className="bg-purple-800 text-white py-16">
+    <section className="bg-gray-800 text-white py-16">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="text-3xl font-bold">
           Your dream home is just a click away
         </h2>
-        <p className="mt-2 text-lg text-purple-200">
+        <p className="mt-2 text-lg text-gray-300">
           Book a free consultation with our expert interior designers.
         </p>
         <div className="mt-8">
@@ -1284,7 +1284,7 @@ const DreamHomeCTA = () => {
             href={whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-red-500 text-white font-bold py-4 px-10 rounded-md text-lg hover:bg-red-600 transition duration-300"
+            className="inline-block bg-teal-600 text-white font-bold py-4 px-10 rounded-md text-lg hover:bg-teal-700 transition duration-300"
           >
             START YOUR DESIGN JOURNEY
           </a>
